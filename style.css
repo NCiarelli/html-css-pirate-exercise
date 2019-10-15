@@ -1,0 +1,14 @@
+body {
+  font-family: "Nanum Brush Script", cursive;
+  background-color: #ccc;
+}
+
+.mainArticle {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Seaweed Script", cursive;
+}
