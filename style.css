@@ -29,16 +29,38 @@ img {
 }
 
 .caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
   text-align: center;
-  margin: 0 0 10px 0;
+}
+
+.capBack {
+  color: #fff;
+  background-color: #000;
+  padding: 8px;
+  font-size: 20px;
 }
 
 .ship {
-  float: right;
-  transform: rotate(2deg);
+  /* The image used */
+  background-image: url("/images/ship_pic.jpg");
 }
 
 .chest {
-  float: left;
-  transform: rotate(-2deg);
+  /* The image used */
+  background-image: url("/images/treasure_chest_chest_jewellery_open_lighting.jpg");
+}
+
+.parallax {
+  position: relative;
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
