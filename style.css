@@ -47,12 +47,12 @@ img {
 
 .ship {
   /* The image used */
-  background-image: url("/images/ship_pic.jpg");
+  background-image: url("images/ship_pic.jpg");
 }
 
 .chest {
   /* The image used */
-  background-image: url("/images/treasure_chest_chest_jewellery_open_lighting.jpg");
+  background-image: url("images/treasure_chest_chest_jewellery_open_lighting.jpg");
 }
 
 .parallax {
